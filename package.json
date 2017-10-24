@@ -1,0 +1,33 @@
+{
+  "name": "event-bus-station",
+  "version": "1.0.0",
+  "description": "Simple event bus.",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@types/node": "^8.0.46"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "tslint": "^5.8.0",
+    "typescript": "^2.5.3"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varHarrie/event-bus-station.git"
+  },
+  "keywords": [
+    "event",
+    "event-bus"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varHarrie/event-bus-station/issues"
+  },
+  "homepage": "https://github.com/varHarrie/event-bus-station#readme"
+}
