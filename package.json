@@ -4,18 +4,22 @@
   "description": "Simple event bus.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
-    "@types/node": "^8.0.46"
+    "@types/node": "^8.0.47"
   },
   "devDependencies": {
     "@types/chai": "^4.0.4",
-    "@types/mocha": "^2.2.43",
+    "@types/mocha": "^2.2.44",
     "chai": "^4.1.2",
     "mocha": "^4.0.1",
     "rimraf": "^2.6.2",
     "ts-node": "^3.3.0",
     "tslint": "^5.8.0",
-    "typescript": "^2.5.3"
+    "typescript": "^2.6.1"
   },
   "scripts": {
     "build": "rimraf dist && tsc",
@@ -29,7 +33,7 @@
     "event",
     "event-bus"
   ],
-  "author": "",
+  "author": "varHarrie",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/varHarrie/event-bus-station/issues"

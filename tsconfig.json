@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "target": "es2015",
+    "target": "es5",
     "lib": ["es2015"],
     "sourceMap": true,
+    "module": "commonjs",
     "moduleResolution": "node",
     "rootDir": "src",
     "forceConsistentCasingInFileNames": true,
